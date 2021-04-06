@@ -1,0 +1,146 @@
+/* Gerais */ 
+
+body{	
+	background-color: #EBF5F7;
+	font-family: 'Tenor Sans', sans-serif;	
+}
+
+.container{
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;	
+}
+
+/* Header */
+
+header #banner{
+	width: 100%;
+}
+
+/* Main */ 
+
+main section h2{
+	font-size: 3rem;
+	color: #1A5653;	
+	display: block;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #1A5653;
+	margin-bottom: 10px;
+}
+
+main .lista-pacientes{
+	padding-top: 100px;	
+}
+
+main #filtrar-tabela {
+	width: 200px;
+	height: 35px;
+	margin-bottom: 30px;
+}
+
+main table{
+	width: 100%;
+	margin-bottom : 20px;
+    table-layout: fixed;
+}
+
+main td, th {
+	padding: .7em;
+	border: 1px solid #1A5653;;
+	text-align: center;
+}
+
+main th{
+	font-weight: bold;
+	background-color: #61C2A2;
+}
+
+main label{
+	color: #1A5653;
+	display: block;
+	margin: 5px;
+}
+
+main .campo{	
+	width: 50%;
+	border: 1px solid #1A5653;
+	padding: 10px;	
+	margin: 5px;
+}
+
+main .campo-medio{
+	display: inline-block;
+	padding-right: 50px;
+}
+
+main .grupo{
+	width: 70%;
+	display: inline-block;
+}
+
+main #deletar{
+	color: #F09E29;
+	font-weight: bold;
+	padding-bottom: 20px;
+	font-size: .9rem;
+}
+
+main button{
+	padding: 10px;
+	margin: 10px;
+	border: 0;	
+	font-size: .9rem;
+	cursor: pointer;	
+	color: #140005;
+	background-color:#F09E29;
+	width: 20%;
+    display: block;
+    clear: both;    
+}
+
+main .campo-invalido{
+	border: 1px solid #F3322B;
+}
+
+main .paciente-invalido {
+	background-color: #F8AFA6;
+}
+
+main #mensagens-erro {
+	color:#F3322B;
+}
+
+main .fadeOut {
+	opacity: 0;
+	transition: 0.5s;
+}
+
+main .invisivel {
+	display: none;
+}
+
+main .adicionar-paciente{
+	padding: 50px 0px 100px 0px;	
+}
+
+main #adicionar-paciente-botao{
+	margin-top: 40px;
+}
+
+/* Footer */ 
+
+footer .container{	
+	align-items: center;
+	justify-content: space-evenly;		
+	height: 15vh;		
+}
+
+footer .rodape{
+	background-color: #61C2A2;
+	color: #1A5653;
+	font-weight: bold;
+}
+
